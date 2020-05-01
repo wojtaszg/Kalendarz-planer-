@@ -49,6 +49,8 @@ namespace Kalendarz
         /// Wykonuje pierwsze połączenie z API
         /// Dodaje elementy(listboxy i labele) do odpowiednich list
         /// </summary>
+        /// <code>
+        /// </code>
         public MainWindow()
         {
             InitializeComponent();
@@ -189,6 +191,13 @@ namespace Kalendarz
         /// Metoda tworząca kolekcje danych z wydarzeń wybranego dnia
         /// i wyświetlająca jej zawartość w podanym listboxie
         /// </summary>
+        /// <example>
+        /// <code>
+        /// DateTime data = new DateTime();
+        /// ListBox listBox;
+        /// weeklEvents(data, listBox);
+        /// </code>
+        /// </example>
         /// <param name="d"></param>
         /// <param name="listBox"></param>
         private void weeklyEvents(DateTime d, ListBox listBox)
