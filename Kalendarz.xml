@@ -11,7 +11,7 @@
         </member>
         <member name="M:Kalendarz.EventsEntity.#ctor">
             <summary>
-            
+            Konstruktor klasy
             </summary>
         </member>
         <member name="M:Kalendarz.EventsEntity.OnModelCreating(System.Data.Entity.DbModelBuilder)">
