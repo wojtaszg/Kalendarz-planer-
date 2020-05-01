@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OpenWeatherAPI</id>
+    <version>1.0.1</version>
+    <authors>OpenWeatherAPI, swiftyspiffy, Atrejoe</authors>
+    <owners>OpenWeatherAPI, swiftyspiffy, Atrejoe</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/swiftyspiffy/OpenWeatherMap-API-CSharp</projectUrl>
+    <description>Package Description</description>
+    <releaseNotes>Ported to .Net standard 2.0</releaseNotes>
+    <copyright>Copyright © 2016</copyright>
+    <tags>OpenWeatherAPI weather</tags>
+    <repository url="https://github.com/swiftyspiffy/OpenWeatherMap-API-CSharp" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\bin\Debug\netstandard2.0\OpenWeatherAPI.dll" target="lib\netstandard2.0\OpenWeatherAPI.dll" />
+  </files>
+</package>

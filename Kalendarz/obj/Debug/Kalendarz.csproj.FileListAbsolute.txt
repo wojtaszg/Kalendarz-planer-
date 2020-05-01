@@ -1,0 +1,64 @@
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\Kalendarz.exe.config
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\Kalendarz.exe
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\Kalendarz.pdb
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.csprojAssemblyReference.cache
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\MainWindow.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\App.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz_MarkupCompile.cache
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz_MarkupCompile.lref
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\MainWindow.baml
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.g.resources
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.Properties.Resources.resources
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.csproj.GenerateResource.cache
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.csproj.CoreCompileInputs.cache
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.exe
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.pdb
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\EntityFramework.dll
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\EntityFramework.xml
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz.csproj.CopyComplete
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Kalendarz_Content.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Window2.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz\Kalendarz\obj\Debug\Window2.baml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\Kalendarz.exe.config
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\Kalendarz.exe
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\Kalendarz.pdb
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\EntityFramework.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\OpenWeatherAPI.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\EntityFramework.xml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\OpenWeatherAPI.pdb
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.csprojAssemblyReference.cache
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\MainWindow.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Window2.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\App.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz_Content.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz_MarkupCompile.cache
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz_MarkupCompile.lref
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\MainWindow.baml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Window2.baml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.g.resources
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.Properties.Resources.resources
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.csproj.GenerateResource.cache
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.csproj.CoreCompileInputs.cache
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.csproj.CopyComplete
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.exe
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\Kalendarz.pdb
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\WindowNewCity.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\WindowNewCity.baml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\WindowNewTask.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\WindowNewTask.baml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\WindowRemoveObject.g.cs
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\obj\Debug\WindowRemoveObject.baml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\Kalendarz.xml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.abstractions.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.assert.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.core.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.abstractions.xml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.assert.xml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.core.xml
+C:\Users\Wojtek\source\repos\Kalendarz — kopia (2)\Kalendarz\bin\Debug\xunit.execution.desktop.xml

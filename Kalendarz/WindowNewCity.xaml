@@ -1,0 +1,18 @@
+﻿<Window x:Name="Nowe_miasto" x:Class="Kalendarz.WindowNewCity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalendarz"
+        mc:Ignorable="d"
+        Title="WindowNewCity" Height="296.4" Width="393">
+	<Window.Background>
+		<ImageBrush ImageSource="wroclaw.jpg" TileMode="Tile"/>
+	</Window.Background>
+	<Grid Margin="0,0,295.6,84">
+		<TextBox x:Name="TextBoxCity"  HorizontalAlignment="Left" Height="30" Margin="110,95,-194.2,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
+		<Button x:Name="ButtonAddCity" Content="Zatwierdź" HorizontalAlignment="Left" Height="35" Margin="110,130,-194.2,0" VerticalAlignment="Top" Width="175" Click="ButtonAddCity_Click"/>
+		<Label Content="Nazwa miasta" HorizontalAlignment="Left" Height="30" Margin="110,60,-194.2,0" VerticalAlignment="Top" Width="175" FontSize="12"/>
+
+	</Grid>
+</Window>

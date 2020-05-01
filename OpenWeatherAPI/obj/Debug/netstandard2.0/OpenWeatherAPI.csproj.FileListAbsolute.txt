@@ -1,0 +1,9 @@
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\bin\Debug\netstandard2.0\OpenWeatherAPI.deps.json
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\bin\Debug\netstandard2.0\OpenWeatherAPI.dll
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\bin\Debug\netstandard2.0\OpenWeatherAPI.pdb
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\obj\Debug\netstandard2.0\OpenWeatherAPI.csprojAssemblyReference.cache
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\obj\Debug\netstandard2.0\OpenWeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\obj\Debug\netstandard2.0\OpenWeatherAPI.AssemblyInfoInputs.cache
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\obj\Debug\netstandard2.0\OpenWeatherAPI.AssemblyInfo.cs
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\obj\Debug\netstandard2.0\OpenWeatherAPI.dll
+C:\Users\Wojtek\Downloads\OpenWeatherMap-API-CSharp-master\OpenWeatherMap-API-CSharp-master\OpenWeatherAPI\obj\Debug\netstandard2.0\OpenWeatherAPI.pdb

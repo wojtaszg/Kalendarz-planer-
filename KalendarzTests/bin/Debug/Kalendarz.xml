@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kalendarz</name>
+    </assembly>
+    <members>
+        <member name="T:Kalendarz.EventsEntity">
+            <summary>
+            Klasa umożliwiająca połączenie z bazą danych za pomocą entity framework
+            </summary>
+        </member>
+        <member name="M:Kalendarz.EventsEntity.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kalendarz.EventsEntity.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="P:Kalendarz.EventsEntity.ListOfEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Kalendarz.EventsEntity.ListOfTasks">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Kalendarz.ListOfEvents">
+            <summary>
+            Klasa odpowiadająca tabeli z listą wydarzeń z bazy danych
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfEvents.EventId">
+            <summary>
+            Nr identyfikacyjny wydarzenia
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfEvents.Description">
+            <summary>
+            Opis wydarzenia
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfEvents.Date">
+            <summary>
+            Data wydarzenia
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfEvents.Time">
+            <summary>
+            Czas wydarzenia
+            </summary>
+        </member>
+        <member name="T:Kalendarz.ListOfTasks">
+            <summary>
+            Klasa odpowiadająca tabeli z listą zadań z bazy danych
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfTasks.TaskId">
+            <summary>
+            Nr identyfikacyjny zadania
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfTasks.Description">
+            <summary>
+            Opis zadania
+            </summary>
+        </member>
+        <member name="P:Kalendarz.ListOfTasks.Date">
+            <summary>
+            Termin wykonania zadania
+            </summary>
+        </member>
+        <member name="T:Kalendarz.Window2">
+            <summary>
+            Interaction logic for Window2.xaml
+            </summary>
+            <summary>
+            Window2
+            </summary>
+        </member>
+        <member name="F:Kalendarz.Window2.entit">
+            <summary>
+            Połączenie entity framework
+            </summary>
+        </member>
+        <member name="F:Kalendarz.Window2.data">
+            <summary>
+            Zmienna typu string przechowująca datę
+            </summary>
+        </member>
+        <member name="M:Kalendarz.Window2.#ctor">
+            <summary>
+            Konstruktor domyślny
+            </summary>
+        </member>
+        <member name="M:Kalendarz.Window2.#ctor(System.String)">
+            <summary>
+            Konstruktor parametryczny inicjujący pole data
+            </summary>
+            <param name="x"></param>
+        </member>
+        <member name="M:Kalendarz.Window2.ButtonAddEvent_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda dodająca do bazy danych nowe wydarzenie po wciśnięciu przycisku
+            Dane są wprowadzane w polach textbox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.Window2.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Kalendarz.WindowNewCity">
+            <summary>
+            Interaction logic for WindowNewCity.xaml
+            </summary>
+            <summary>
+            WindowNewCity
+            </summary>
+        </member>
+        <member name="M:Kalendarz.WindowNewCity.#ctor">
+            <summary>
+            Konstruktor domyślny
+            </summary>
+        </member>
+        <member name="F:Kalendarz.WindowNewCity.CityName">
+            <summary>
+            Nazwa nowego miasta
+            </summary>
+        </member>
+        <member name="F:Kalendarz.WindowNewCity.ButtonClick">
+            <summary>
+            Zmienna pomocnicza
+            </summary>
+        </member>
+        <member name="M:Kalendarz.WindowNewCity.ButtonAddCity_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda dodająca nowe miasto oraz pobierająca dla niego dane z API
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.WindowNewCity.ReturnCityName">
+            <summary>
+            Meotda zwracająca nazwę miasta
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kalendarz.WindowNewCity.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Kalendarz.WindowNewTask">
+            <summary>
+            Interaction logic for WindowNewTask.xaml
+            </summary>
+            <summary>
+            WindowNewTask
+            </summary>
+        </member>
+        <member name="F:Kalendarz.WindowNewTask.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kalendarz.WindowNewTask.#ctor">
+            <summary>
+            Konstruktor domyślny
+            </summary>
+        </member>
+        <member name="M:Kalendarz.WindowNewTask.#ctor(System.String)">
+            <summary>
+            Konstruktor parametryczny inicjujący pole data 
+            </summary>
+            <param name="d"></param>
+        </member>
+        <member name="M:Kalendarz.WindowNewTask.ButtonAddTask_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda tworząca nowe zadania w wybranym z kalendarza dniu
+            Dane są wpisywane w pola textbox
+            Zadanie jest dodawane do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.WindowNewTask.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Kalendarz.WindowRemoveObject">
+            <summary>
+            Interaction logic for WindowRemoveObject.xaml
+            </summary>
+            <summary>
+            WindowRemoveObject
+            </summary>
+        </member>
+        <member name="M:Kalendarz.WindowRemoveObject.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kalendarz.WindowRemoveObject.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Kalendarz.App">
+            <summary>
+            Logika interakcji dla klasy App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Kalendarz.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Kalendarz.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Kalendarz.MainWindow">
+            <summary>
+            Logika interakcji dla klasy MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:Kalendarz.MainWindow.listBoxes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Kalendarz.MainWindow.labelsDay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Kalendarz.MainWindow.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kalendarz.MainWindow.#ctor">
+            <summary>
+            Konstruktor klasy
+            Ustawia taktowanie zegara
+            Wykonuje pierwsze połączenie z API
+            Dodaje elementy(listboxy i labele) do odpowiednich list
+            </summary>
+        </member>
+        <member name="M:Kalendarz.MainWindow.Calendar_SelectedDatesChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Metoda odpowiedzialna za wybór daty w kalendarzu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.timer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Metoda wykonująca się co interval = 1s 
+            Sprawdza zmiany w danych pobranych z API
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.MainWindow1_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Wczytanie głównego okna
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonSelctedDayEvent_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda wyświetlająca wszystkie wydarzenia z wybranego w kalendarzu dnia
+            po kliknięciu przycisku
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.weeklyEvents(System.DateTime,System.Windows.Controls.ListBox)">
+            <summary>
+            Metoda tworząca kolekcje danych z wydarzeń wybranego dnia
+            i wyświetlająca jej zawartość w podanym listboxie
+            </summary>
+            <param name="d"></param>
+            <param name="listBox"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.weeklyTasks(System.DateTime,System.Windows.Controls.ListBox)">
+            <summary>
+            Metoda tworząca kolekcje danych z zadań wybranego dnia
+            i wyświetlająca jej zawartość w podanym listboxie
+            </summary>
+            <param name="d"></param>
+            <param name="listBox"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.calendar7Days">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonShowCalendar_Clik(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda odpowiadająca za wczytanie oraz wyświetlenia 
+            wydarzeń oraz zadań w przeciągu tygodnia
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonChangeCity_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda otwierająca nowe okno dialogowe po naciśnięciu przycisku
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonAddEvent_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda odpowiedzialna za utworzenie okna dialogowego do wprowadzenia nowego wydarzenia
+            oraz przekazania jemu jako parametr wybranej z kalendarza daty
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.Window_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Metoda wykonująca się w momencie zamknięcia aplikacji
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonTask_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda odpowiedzialna za utworzenie okna dialogowego do wprowadzenia nowego zadania
+            oraz przekazania jemu jako parametr wybranej z kalendarza daty
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonShowTask_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda wyświetlająca wszystkie zadania w dniu
+            wybraznym z kalendarza po wciśnięciu przycisku
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.ButtonEventRemove_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metoda otwierająca okno dialogowe umożliwiające usunięcie wydarzenia/zadania
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kalendarz.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Kalendarz.Properties.Resources">
+            <summary>
+              Silnie typizowana klasa zasobów do wyszukiwania zlokalizowanych ciągów itd.
+            </summary>
+        </member>
+        <member name="P:Kalendarz.Properties.Resources.ResourceManager">
+            <summary>
+              Zwraca buforowane wystąpienie składnika ResourceManager używane przez tę klasę.
+            </summary>
+        </member>
+        <member name="P:Kalendarz.Properties.Resources.Culture">
+            <summary>
+              Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+              przypadków przeszukiwania zasobów za pomocą tej silnie typizowanej klasy zasobów.
+            </summary>
+        </member>
+    </members>
+</doc>

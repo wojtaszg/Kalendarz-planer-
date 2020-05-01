@@ -1,0 +1,19 @@
+﻿<Window x:Class="Kalendarz.WindowRemoveObject"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalendarz"
+        mc:Ignorable="d"
+        Title="WindowRemoveObject" Height="386.4" Width="318.2">
+	<Grid>
+		<Grid.Background>
+			<ImageBrush ImageSource="bin.jpg"/>
+		</Grid.Background>
+		<TextBox x:Name="TextBoxID" HorizontalAlignment="Left" Height="45" Margin="110,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+		<Button x:Name="ButtonRemoveEvent" Content="Usuń wydarzenie" HorizontalAlignment="Left" Height="40" Margin="110,190,0,0" VerticalAlignment="Top" Width="100" Click="ButtonRemoveEvent_Click"/>
+		<Button x:Name="ButtonRemoveTask" Content="Usuń zadanie" HorizontalAlignment="Left" Height="40" Margin="110,240,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.496,0.865" Click="ButtonRemoveTask_Click"/>
+		<Label Content="Nr ID" HorizontalAlignment="Left" Height="25" Margin="110,160,0,0" VerticalAlignment="Top" Width="100"/>
+
+	</Grid>
+</Window>

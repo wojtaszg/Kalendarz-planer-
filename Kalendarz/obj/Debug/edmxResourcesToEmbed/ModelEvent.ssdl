@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EventsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EventsList">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Date" Type="smalldatetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ListOfEvents">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Time" Type="time" Precision="0" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Events.dbo.ListOfTasks' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ListOfTasks">
+    <Key>
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EventsModelStoreContainer">
+    <EntitySet Name="EventsList" EntityType="Self.EventsList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListOfEvents" EntityType="Self.ListOfEvents" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListOfTasks" EntityType="Self.ListOfTasks" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ListOfTasks].[Description] AS [Description], 
+    [ListOfTasks].[Date] AS [Date]
+    FROM [dbo].[ListOfTasks] AS [ListOfTasks]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
